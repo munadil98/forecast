@@ -32,7 +32,7 @@ var days;
 
 					var temp=value.forecast.forecastday[i].day.maxtemp_c;
 					var date=value.forecast.forecastday[i].date;
-					$("#forecast").append(date+": "+temp+"&#8451<br>,");
+					$("#forecast").append(date+": "+temp+"&#8451,<br>");
 				}
 				
 				
